@@ -2,8 +2,6 @@
 
 An end-to-end PyTorch implementation of deep learning architectures for video action recognition on a 25-class subset of the UCF101 dataset (miniUCF). This project implements and evaluates two classic paradigms: **Temporal Segment Networks (TSN)** (ECCV 2016) and **3D ResNet-18** from scratch with weight inflation (CVPR 2017).
 
-Developed by **Jinglin Zhu** (May 2026).
-
 ---
 
 ## Key Achievements
@@ -107,8 +105,6 @@ By averaging the probability distributions of RGB (Appearance) and Optical Flow 
 ---
 
 ## References
-If you find this project or the underlying methodologies useful, please reference the original landmark papers:
-
 1. **Temporal Segment Networks (TSN)**:
    * Limin Wang, Yuanjun Xiong, Zhe Wang, Yu Qiao, Dahua Lin, Xiaoou Tang, and Luc Van Gool. *"Temporal Segment Networks: Towards Good Practices for Deep Action Recognition."* European Conference on Computer Vision (ECCV), 2016.
    * [ArXiv Paper Link](https://arxiv.org/abs/1608.00859)
@@ -128,4 +124,8 @@ If you find this project or the underlying methodologies useful, please referenc
 ---
 
 ## Author
-*   **Jinglin Zhu** - [GitHub Profile](https://github.com/partner-username)
+*   **Jinglin Zhu** - [GitHub Profile](https://github.com/partner-username) - *Implementation, Evaluation, and Documentation*
+*   This project was developed as part of the **Video Analytics (SS26)** course at the **University of Tübingen**.
+
+## Disclaimer
+This repository is an independent PyTorch re-implementation of the Temporal Segment Networks (TSN) and 3D ResNet-18 architectures, developed solely for academic and educational purposes. All rights, patents, and intellectual property regarding the original algorithms, network designs, and methodologies belong to the respective authors of the landmark papers cited in the references section above.
